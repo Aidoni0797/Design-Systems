@@ -43,7 +43,16 @@ def print_video_stats():
         }
         requests.get(url, params=params)
     else:
-        pass
+        message = "I have problem"
+
+        # Отправка сообщения в Telegram
+        url = f"https://api.telegram.org/bot{BOT_TOKEN}/sendMessage"
+        params = {
+            'chat_id': CHAT_ID,
+            'text': message,
+            'parse_mode': 'Markdown'
+        }
+        requests.get(url, params=params)
 
 
 if __name__ == '__main__':
