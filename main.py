@@ -55,5 +55,4 @@ def print_video_stats():
         requests.get(url, params=params)
 
 
-if __name__ == '__main__':
-    print_video_stats()
+
