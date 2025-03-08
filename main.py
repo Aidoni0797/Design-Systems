@@ -8,7 +8,8 @@ api_key = 'AIzaSyB1BmsQNVHohOPw7xiaT_QxJsb-TzwsSVc'
 youtube = build('youtube', 'v3', developerKey=api_key)
 
 
-video_id = '6Sw6onqyfcA'
+video_id = 'YOkrwesZ34s'
+# video_id = '6Sw6onqyfcA'
 
 BOT_TOKEN = '8178967594:AAE14G4kmVksV-Y3oyZNBQkxe98JDYQgzws'
 CHAT_ID = '1163463444'
