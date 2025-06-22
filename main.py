@@ -11,7 +11,7 @@ youtube = build('youtube', 'v3', developerKey=api_key)
 video_id = 'YOkrwesZ34s'
 # video_id = '6Sw6onqyfcA'
 
-BOT_TOKEN = '8178967594:AAE14G4kmVksV-Y3oyZNBQkxe98JDYQgzws'
+BOT_TOKEN = '7722533303:AAGkV0WauU6r0UBgqYoxnStWZtoRkxE25tQ'
 CHAT_ID = '1163463444'
 
 
