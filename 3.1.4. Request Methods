@@ -111,4 +111,15 @@ Host: www.example.com
 обеспечения правильного взаимодействия между клиентами и серверами.
 
 Примеры:
-1. 
+1. Отправка GET-запроса с помощью библиотеки requests:
+
+Листинг 3.1
+#GET
+import requests
+
+# Отправляем GET-запрос на указанный URL
+response = requests.get("https://api.example.com/data")
+
+# Выводим статус-код и содержимое ответа
+print("Status Code:", response.status_code)
+print("Response Body:", response.text)
