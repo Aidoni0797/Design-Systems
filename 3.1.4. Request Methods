@@ -141,3 +141,5 @@ response = requests.post("https://api.example.com/login", data=data)
 # Выводим статус-код и содержимое ответа
 print("Status Code:", response.status_code)
 print("Response Body:", response.text)
+
+189 страница
