@@ -1,0 +1,29 @@
+3.1.3. Examples of Using HTTP and HTTPS
+
+HTTP-запрос GET
+
+GET /page HTTP/1.1
+Host: example.com
+
+HTTP ответ
+HTTP/1.1 200 OK
+Content-Type: text/html
+
+<html>
+<head><title>Example</title></head>
+<body>Example Page</body>
+</html>
+
+HTTPS-запрос GET
+
+GET /securepage HTTP/1.1
+Host: example.com
+
+HTTPS-ответ
+HTTP/1.1 200 OK
+Content-type: text/html
+
+<html>
+<head><title>Secure Example</title></head>
+<body>Secure Example Page</body>
+</html>
