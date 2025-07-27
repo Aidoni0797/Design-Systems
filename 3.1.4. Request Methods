@@ -123,3 +123,21 @@ response = requests.get("https://api.example.com/data")
 # Выводим статус-код и содержимое ответа
 print("Status Code:", response.status_code)
 print("Response Body:", response.text)
+
+
+2. Отправка POST-запроса с данными с помощью библиотеки requests:
+
+Листинг 3.2
+
+#POST
+import requests
+
+#Данные для отправки
+data = ["username": "example_user", "password":"example_password"]
+
+#Отправляем POST-запрос на указанный URL с данными
+response = requests.post("https://api.example.com/login", data=data)
+
+# Выводим статус-код и содержимое ответа
+print("Status Code:", response.status_code)
+print("Response Body:", response.text)
